@@ -1,7 +1,7 @@
-# SwiftUI + UserDefults Demo
+# SwiftUI + UserDefualts Demo
 A demonstration of UserDefualts with SwiftUI
 
-![Screenshot](https://github.com/patrickmfsd/SwiftUI-UserDefults-Demo/blob/master/screenshots.png)
+![Screenshot](https://github.com/patrickmfsd/SwiftUI-UserDefualts-Demo/blob/master/screenshots.png)
 
 ## About
 A demonstration of UserDefualts with SwiftUI
@@ -10,7 +10,7 @@ This demo app has:
 - Uses a Tab View:
   - Home View
   - Settings View uses `Form` with sections
-- Utilises UserDefults to store settings.
+- Utilises UserDefualts to store settings.
 
 ## Requirements
 
