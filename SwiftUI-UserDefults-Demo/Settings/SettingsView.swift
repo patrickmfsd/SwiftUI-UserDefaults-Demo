@@ -18,7 +18,7 @@ struct SettingsView: View {
             List {
                 Section {
                     HStack {
-                        Text("Image Size")
+                        Text("Image Scale")
                         Spacer(minLength: 25)
                         Picker("Image Scale", selection: self.$settings.imageSizeId) {
                             ForEach(self.settings.imageSizes) { imageSize in
