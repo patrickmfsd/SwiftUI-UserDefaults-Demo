@@ -15,6 +15,9 @@
 		779F51DD2449ECE100D2CA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779F51DB2449ECE100D2CA97 /* LaunchScreen.storyboard */; };
 		779F51E82449ECE100D2CA97 /* SwiftUI_UserDefults_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F51E72449ECE100D2CA97 /* SwiftUI_UserDefults_DemoTests.swift */; };
 		779F51F32449ECE100D2CA97 /* SwiftUI_UserDefults_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F51F22449ECE100D2CA97 /* SwiftUI_UserDefults_DemoUITests.swift */; };
+		779F52032449ECF900D2CA97 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F52002449ECF900D2CA97 /* UserSettings.swift */; };
+		779F52042449ECF900D2CA97 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F52012449ECF900D2CA97 /* SettingsView.swift */; };
+		779F52052449ECF900D2CA97 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F52022449ECF900D2CA97 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		779F51EE2449ECE100D2CA97 /* SwiftUI-UserDefults-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-UserDefults-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		779F51F22449ECE100D2CA97 /* SwiftUI_UserDefults_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserDefults_DemoUITests.swift; sourceTree = "<group>"; };
 		779F51F42449ECE100D2CA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779F52002449ECF900D2CA97 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		779F52012449ECF900D2CA97 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		779F52022449ECF900D2CA97 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 				779F51D02449ECDD00D2CA97 /* AppDelegate.swift */,
 				779F51D22449ECDD00D2CA97 /* SceneDelegate.swift */,
 				779F51D42449ECDD00D2CA97 /* ContentView.swift */,
+				779F52062449ECFF00D2CA97 /* Settings */,
 				779F51D62449ECE100D2CA97 /* Assets.xcassets */,
 				779F51DB2449ECE100D2CA97 /* LaunchScreen.storyboard */,
 				779F51DE2449ECE100D2CA97 /* Info.plist */,
@@ -134,6 +141,16 @@
 				779F51F42449ECE100D2CA97 /* Info.plist */,
 			);
 			path = "SwiftUI-UserDefults-DemoUITests";
+			sourceTree = "<group>";
+		};
+		779F52062449ECFF00D2CA97 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				779F52012449ECF900D2CA97 /* SettingsView.swift */,
+				779F52022449ECF900D2CA97 /* UserDefaults.swift */,
+				779F52002449ECF900D2CA97 /* UserSettings.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779F52042449ECF900D2CA97 /* SettingsView.swift in Sources */,
 				779F51D12449ECDD00D2CA97 /* AppDelegate.swift in Sources */,
+				779F52052449ECF900D2CA97 /* UserDefaults.swift in Sources */,
+				779F52032449ECF900D2CA97 /* UserSettings.swift in Sources */,
 				779F51D32449ECDD00D2CA97 /* SceneDelegate.swift in Sources */,
 				779F51D52449ECDD00D2CA97 /* ContentView.swift in Sources */,
 			);
