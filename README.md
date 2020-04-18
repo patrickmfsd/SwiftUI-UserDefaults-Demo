@@ -1,5 +1,7 @@
-# SwiftUI-UserDefults-Demo
+# SwiftUI + UserDefults Demo
 A demonstration of UserDefualts with SwiftUI
+
+![Screenshot](https://github.com/patrickmfsd/SwiftUI-UserDefults-Demo/blob/master/screenshots.png)
 
 ## About
 A demonstration of UserDefualts with SwiftUI
