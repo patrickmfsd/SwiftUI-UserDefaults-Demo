@@ -1,5 +1,5 @@
-# SwiftUI + UserDefualts Demo
-A demonstration of UserDefualts with SwiftUI
+# SwiftUI + UserDefaults Demo
+A demonstration of UserDefaults with SwiftUI
 
 ![Screenshot](https://github.com/patrickmfsd/SwiftUI-UserDefualts-Demo/blob/master/screenshots.png)
 
